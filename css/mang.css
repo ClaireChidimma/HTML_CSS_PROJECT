@@ -1,0 +1,199 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* global classes */
+.container {
+    margin: 2rem 10rem;
+}
+.containers {
+    margin: 0rem 10rem;
+}
+.just{
+    justify-content: space-between;
+}
+.just1{
+    justify-content: space-around;
+}
+.sense{
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.btns{
+    background-color: orangered;
+    color: white;
+    padding: 8px 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 14px;
+}
+.btnt:hover{
+    opacity: 0.6;
+}
+.btnz{
+    background-color: white;
+    color: orangered;
+    padding: 10px 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 14px;
+}
+.space{
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+/* global classes end */
+/* navbar start */
+.navs{
+    margin-left: -90px;
+}
+/* navbar end */
+/* hero start */
+.all-hero{
+    margin-top: 4rem;
+    justify-content: space-between
+}
+.herol h1{
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 3.3rem;
+}
+.move{
+    padding-top: 3rem;
+}
+.herol p{
+    margin-top: 5px;
+}
+.down{
+    margin-bottom: 3rem;
+}
+/* hero end */
+/* second start */
+.secondl{
+    flex-basis: 50%;
+}
+.secondl h1{
+    font-weight: 900;
+    font-size: 35px;
+}
+.secondl p{
+    line-height: 1.5rem;
+}
+.secondr{
+    flex-basis: 50%;
+}
+.secondr h4 span{
+    background-color: orangered;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    border-radius: 9px;
+    margin-right: 15px;
+}
+.secondr h4{
+    margin-bottom: 1.5rem;
+}
+.secondr p{
+    margin-bottom: 2rem;
+    margin-left: 3.3rem;
+}
+/* second end */
+/* third start */
+.header{
+    text-align: center;
+    margin: 2rem 0;
+}
+.bod{
+    margin-top: 2rem;
+}
+.rew{
+    flex-basis: 32%;
+}
+.info{
+    background-color: aliceblue;
+    text-align: center;
+}
+.info h5{
+    font-size: 16px;
+    padding: 25px 5px;
+}
+.info p{
+    padding: 5px 5px 15px 5px;
+}
+.rew img{
+    zoom: 40%;
+    transform: translateX(220%);
+    z-index: 10;
+    margin-bottom: -60px;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+/* third end */
+/* footer start */
+.footer-up{
+    background-color: orangered;
+    color: white;
+    padding: 1px 0;
+}
+.foot1l h1{
+    font-size: 40px;
+}
+.footer-down{
+    background-color: black;
+}
+.footer-down a{
+    color: white;
+    text-decoration: none;
+}
+.links{
+    flex-basis: 25%;
+    margin-top: 13px;
+}
+.linkss{
+    flex-basis: 25%;
+}
+.linkss a{
+    display: block;
+    margin: 13px 0;
+}
+.links p{
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.links p span{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.social{
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.social a{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.dot{
+    margin-top: -4px;
+}
+.dot h1{
+    font-size: 40px;
+    color: orangered;
+    line-height: 13px;
+}
+.tag{
+    margin-top: -8px;
+}
+.tag h1{
+    font-size: 39px;
+    margin-left: 3px;
+}
+/* footer end */

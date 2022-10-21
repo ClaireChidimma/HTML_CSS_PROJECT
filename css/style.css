@@ -1,0 +1,135 @@
+*{
+
+}
+
+p{
+    color: blueviolet;
+}
+
+.come{
+    color:white;
+    font-size:23px;
+    padding:60px 30px;
+}
+.claire{
+    font-size:20px;
+    color:violet;
+}
+#claire{
+    font-size:25px;   
+}
+
+.sugar{
+    border:1px dashed black;
+    width:80%;
+    height:100px;
+}
+
+.container{
+    background-color:green;
+    width:500px;
+    height:500px;
+    padding:40px 30px 40px 30px;
+    padding:60px 80px;
+    padding:40px;
+    margin:60px 80px;
+    border-width:10px;
+    border-style: dotted;
+    border-color: purple;
+    border:10px dotted purple
+}
+ 
+
+.inner{
+    background-color: red;
+    width:300px;
+    height:300px;
+    border:10px dashed orange;  
+}
+
+/* CSS FONTS
+
+    font-family
+    font-size
+    font-style
+    font-weight
+ */
+
+ .font .para{
+    color:purple;
+    font-size:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+ }
+
+ /* css units
+     pixel px{this is the smallest}
+    rem
+    em
+    pc
+    %{this is the smallest of them all}
+ */
+
+ /* CSS LINKS
+    hover
+    active
+    visited
+    text decoration
+ */
+.all-links{
+    text-align: center;
+}
+.links{
+    background-color: pink;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+ }
+
+ .links:hover{
+    background-color:red;
+    padding: 29px;
+ }
+
+ .links:active{
+    background-color:rgb(0, 255, 128);
+ }
+
+ .links:visited{
+    background-color: black;
+ }
+
+ /* CSS BORDER RADIUS */
+
+ .picture img{
+    width: 200px;
+    height:200px;
+    border-radius:50%;
+ }
+
+ .picture{
+    text-align:center;
+ }
+
+/* OVERFLOW */
+
+.overflow-y{
+    height:600px;
+    width:40%;
+    background-color:lightblue;
+    margin:10% 40%;
+    padding:20px;
+    overflow-y:scroll;
+}
+
+img{
+    width: 4rem;
+    height:4rem;
+    border-radius: 50%;
+    
+}
+.image{
+    display:flex;
+    overflow-x:scroll;
+}

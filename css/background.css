@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.container{
+    background-color: lightblue;
+    background-image: url(../img/dontgiveuptree.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top:10%;
+    background:linear-gradient(rgba(0, 0, 100, 0.1), rgba(0, 0, 100, 0.7)), url(../img/dontgiveuptree.jpg), center, cover, fixed,no-repeat;
+    height:100vh;
+    
+}
+
+h1 span{
+    color: rebeccapurple;
+}
+
+span.two{
+    color: red;
+}
+
+.container .all-container{
+   color: greenyellow;
+   background-color:transparent;
+   box-shadow: -3px -7px 20px blue;
+   padding:30px;
+   text-align:center;
+   width:60%;
+   margin-left:20%;
+}
+
+.btn a{
+    text-decoration: none;
+    background-color:black;
+    padding:8px;
+    color:white;
+    border-radius:4px;
+    
+    
+}
+
+.btn{
+    margin-top: 30px;
+    
+}
+
+.btn-secondary{
+    background-color: orangered !important;
+}
